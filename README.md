@@ -2,6 +2,9 @@
 
 Docker image with the necessary DevOps tools to Rock the World
 
+## Docker Build Status
+[![Docker badge](https://img.shields.io/docker/cloud/build/hakimr/devops-lab)]
+
 
 ## Tools so far
 
