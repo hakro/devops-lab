@@ -5,8 +5,8 @@ Docker image with the necessary DevOps tools to Rock the World
 
 ## Tools so far
 
-Terraform : 0.12.7
-AWS CLI
+* Terraform
+* AWS CLI
 
 ## Run
 
