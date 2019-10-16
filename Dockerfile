@@ -10,6 +10,7 @@ RUN wget https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform
     mv terraform /bin && \
 
     # Install AWS CLI
+    apk add groff && \
     pip install -U awscli
 
 CMD /bin/sh
