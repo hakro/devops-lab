@@ -12,4 +12,4 @@ RUN apt update && \
     rm terraform_${TERRAFORM_VERSION}_linux_amd64.zip && \
     mv terraform /bin
 
-CMD /bin/sh
+CMD /bin/bash
