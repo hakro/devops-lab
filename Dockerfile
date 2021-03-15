@@ -2,7 +2,7 @@ FROM python:3.7-slim
 
 WORKDIR /home
 
-ARG TERRAFORM_VERSION=0.12.29
+ARG TERRAFORM_VERSION=0.12.30
 
 RUN apt update && \
     apt install -y groff wget unzip && \
