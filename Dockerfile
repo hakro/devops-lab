@@ -1,8 +1,8 @@
-FROM python:3.7-slim
+FROM python:3.9-slim
 
-WORKDIR /home
+WORKDIR /app
 
-ARG TERRAFORM_VERSION=0.12.30
+ARG TERRAFORM_VERSION=1.0.3
 
 RUN apt update && \
     apt install -y groff wget unzip && \
