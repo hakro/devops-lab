@@ -2,7 +2,7 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-ARG TERRAFORM_VERSION=1.0.3
+ARG TERRAFORM_VERSION=1.1.2
 
 RUN apt update && \
     apt install -y groff wget unzip && \
